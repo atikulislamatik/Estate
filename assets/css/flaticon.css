@@ -1,0 +1,45 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/03/2020 05:46
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../assets/fonts/Flaticon.eot");
+  src: url("../../assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../../assets/fonts/Flaticon.woff2") format("woff2"),
+       url("../../assets/fonts/Flaticon.woff") format("woff"),
+       url("../../assets/fonts/Flaticon.ttf") format("truetype"),
+       url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+
+}
+
+.flaticon-right:before { content: "\f100"; }
+.flaticon-video-camera:before { content: "\f101"; }
+.flaticon-home:before { content: "\f102"; }
+.flaticon-process:before { content: "\f103"; }
+.flaticon-checkmark:before { content: "\f104"; }
+.flaticon-left:before { content: "\f105"; }
+.flaticon-placeholder:before { content: "\f106"; }
+.flaticon-money:before { content: "\f107"; }
+.flaticon-pound:before { content: "\f108"; }
+.flaticon-installment:before { content: "\f109"; }
+.flaticon-customer-service:before { content: "\f10a"; }
+.flaticon-money-growth:before { content: "\f10b"; }
+.flaticon-technical-support:before { content: "\f10c"; }
+.flaticon-deal:before { content: "\f10d"; }
